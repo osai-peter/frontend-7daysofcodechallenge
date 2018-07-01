@@ -18,6 +18,7 @@ for(var i= 1; i< x; i++){
         $('#tableRow' + i).append('<td></td>');
     }
 }
+ // when table data is clicked, call changeBackGr function to change the background colour of the clicked data
     $('td').click(function changeBackGr(){
         colour= $('#colorPicker').val();
         if($(this).attr('style')){
